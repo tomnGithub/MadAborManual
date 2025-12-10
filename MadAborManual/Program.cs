@@ -222,6 +222,7 @@ spell.EditorID.ToString().IndexOf("trap", StringComparison.OrdinalIgnoreCase) >=
                         {
                             addedEffect.Data.Magnitude = 0;
                             addedEffect.Data.Duration = 1;
+                            addedEffect.Data.Area = 0;
                         }
                         // Add this new effect to the spell
                         modifiedSpell.Effects.Add(addedEffect);
@@ -270,8 +271,9 @@ spell.EditorID.ToString().IndexOf("trap", StringComparison.OrdinalIgnoreCase) >=
                             {
                                 addedEffect.Data.Magnitude = 0;
                                 addedEffect.Data.Duration = formSettings.Value.debuffnum;
+                                addedEffect.Data.Area = 0;
                             }
-                           // Console.WriteLine("Hi");
+                            // Console.WriteLine("Hi");
 
                             // Add the effect to the spell
                             modifiedSpell.Effects.Add(addedEffect);
@@ -308,6 +310,7 @@ spell.EditorID.ToString().IndexOf("trap", StringComparison.OrdinalIgnoreCase) >=
                             {
                                 addedEffect.Data.Magnitude = 0;
                                 addedEffect.Data.Duration = 1;
+                                addedEffect.Data.Area = 0;
                             }
 
                             // Add the effect to the spell
@@ -436,6 +439,7 @@ spell.EditorID.ToString().IndexOf("trap", StringComparison.OrdinalIgnoreCase) >=
                         {
                             addedEffect.Data.Magnitude = 0;
                             addedEffect.Data.Duration = 1;
+                            addedEffect.Data.Area = 0;
                         }
                         // Add this new effect to the spell
                         modifiedSpell.Effects.Add(addedEffect);
@@ -484,8 +488,9 @@ spell.EditorID.ToString().IndexOf("trap", StringComparison.OrdinalIgnoreCase) >=
                         if (addedEffect.Data != null)
                         {
                             addedEffect.Data.Magnitude = 0;
-                            addedEffect.Data.Duration = formSettings.Value.debuffnum;
-                        }
+                                addedEffect.Data.Duration = formSettings.Value.debuffnum;
+                                addedEffect.Data.Area = 0;
+                            }
                             //Console.WriteLine("Hi");
 
                             // Add the effect to the spell
@@ -523,6 +528,7 @@ spell.EditorID.ToString().IndexOf("trap", StringComparison.OrdinalIgnoreCase) >=
                             {
                                 addedEffect.Data.Magnitude = 0;
                                 addedEffect.Data.Duration = 1;
+                                addedEffect.Data.Area = 0;
                             }
 
                             // Add the effect to the spell
