@@ -1,0 +1,13 @@
+{
+  "Nickname": "MadAborManual",
+  "Visibility": "Visible",
+  "OneLineDescription": "Non-Skypatcher Version of EC and SAR",
+  "LongDescription": "Non-Skypatcher Version of EC and SAR.",
+  "PreferredAutoVersioning": "Default",
+  "RequiredMods": [],
+  "TargetedReleases": [
+    "SkyrimSE",
+    "SkyrimVR",
+    "SkyrimSEGog"
+  ]
+}
