@@ -211,6 +211,7 @@ spell.EditorID.ToString().IndexOf("trap", StringComparison.OrdinalIgnoreCase) >=
                     if (firstEffect != null)
                     {
                         var addedEffect = firstEffect.DeepCopy();
+                        addedEffect.Conditions.Clear();
                         // Point it at your new Magic Effect instead
                         var newEffectLink = new FormLinkNullable<IMagicEffectGetter>(FormKey.Factory(formstring));
 
@@ -257,6 +258,7 @@ spell.EditorID.ToString().IndexOf("trap", StringComparison.OrdinalIgnoreCase) >=
                         {
                             // Make a copy of the first effect
                             var addedEffect = firstEffect.DeepCopy();
+                            addedEffect.Conditions.Clear();
 
                             // Create the FormKey for the new Magic Effect
                             var newEffectLink = new FormLinkNullable<IMagicEffectGetter>(
@@ -296,6 +298,7 @@ spell.EditorID.ToString().IndexOf("trap", StringComparison.OrdinalIgnoreCase) >=
                         {
                             // Make a copy of the first effect
                             var addedEffect = firstEffect.DeepCopy();
+                            addedEffect.Conditions.Clear();
 
                             // Create the FormKey for the new Magic Effect
                             var newEffectLink = new FormLinkNullable<IMagicEffectGetter>(
@@ -428,6 +431,7 @@ spell.EditorID.ToString().IndexOf("trap", StringComparison.OrdinalIgnoreCase) >=
                     if (firstEffect != null)
                     {
                         var addedEffect = firstEffect.DeepCopy();
+                        addedEffect.Conditions.Clear();
                         // Point it at your new Magic Effect instead
                         var newEffectLink = new FormLinkNullable<IMagicEffectGetter>(FormKey.Factory(formstring));
 
@@ -475,6 +479,7 @@ spell.EditorID.ToString().IndexOf("trap", StringComparison.OrdinalIgnoreCase) >=
                     {
                         // Make a copy of the first effect
                         var addedEffect = firstEffect.DeepCopy();
+                        addedEffect.Conditions.Clear();
 
                         // Create the FormKey for the new Magic Effect
                         var newEffectLink = new FormLinkNullable<IMagicEffectGetter>(
@@ -514,6 +519,7 @@ spell.EditorID.ToString().IndexOf("trap", StringComparison.OrdinalIgnoreCase) >=
                         {
                             // Make a copy of the first effect
                             var addedEffect = firstEffect.DeepCopy();
+                            addedEffect.Conditions.Clear();
 
                             // Create the FormKey for the new Magic Effect
                             var newEffectLink = new FormLinkNullable<IMagicEffectGetter>(
